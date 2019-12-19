@@ -23,7 +23,7 @@ lazy val `cucumber-scala` = project.in(file( "."))
     // check https://s3-eu-west-1.amazonaws.com/intellij-releases/ for valid builds
     ideaBuild in ThisBuild := ideaBuildNumber,
     ideaEdition in ThisBuild := IdeaEdition.Community,
-    ideaPublishSettings := PublishSettings(pluginId = "com.github.danielwegener.cucumber-scala", username = "", password = "", channel = None),
+    ideaPublishSettings := PublishSettings(pluginId = "com.github.ausmarton.cucumber-scala", username = "", password = "", channel = None),
     fork in Test := true,
     parallelExecution := true,
     ideaInternalPlugins := Seq("java")
